@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADITI TYAGI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    <h1>Aditi Tyagi</h1>
+    <p>Full Stack developer and lifelong learner</p>
+<!-- nav always comes under header -->
+<nav>
+    <!-- here id,s follow after # ,used for to visit on that content -->
+    <a href="#about ">about</a>
+    <a href="#project">project</a>
+    <a href="#intro ">contact</a>
+    </nav>
+</header>
+
+<main>
+    <!-- can make different sections to make it easy understanding -->
+     <!-- click and go at that page ,we will use id address and it follow #id -->
+    <section id="about">
+        <h2>About me</h2>
+        <!-- don't forget to use figure tag for image  -->
+        <figure>
+        <img src="c:\Users\DELL\Desktop\photo\tyagi.jpeg" alt="" width="100px" height="100px">
+        <figcaption>That's me at my first hackathon</figcaption>
+    </figure>
+    <p>Hey! I am <strong>Aditi Tyagi</strong> and I want to become a <em>full stack developer</em></p>
+    </section>
+    <!-- same as done with project clickand go  -->
+    <section id="project">
+        <h2>My Projects</h2>
+        <div id="pro">
+        <article>
+        <h3>Project One: Portfolio website</h3>
+        <p>A Simple personal portfolio built with <strong>HTML & CSS</strong></p>
+        <a href="">View on GitHub</a>
+        </article>
+        <article>
+        <h3>Project Two: Todo App</h3>
+        <p>A todo list app built with <strong>JavaScript</strong></p>
+        <a href="">View on GitHub</a>
+        </article>
+        </div>
+        <div id="skills">
+        <h3>Skills</h3>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+        </div>
+    </section>
+    <section id="intro">
+        <h2>Watch My Intro</h2>
+      <video src=" c:\Users\DELL\Downloads\210491_small.mp4" alt="there is a sea"  width="200px" height="200px" controls loop poster="tyagi.jpeg"></video>
+    </section>
+    </main>
+    <footer>
+<h2>Contact me</h2>
+<!-- here is just <p> and anchor tag to just like link -->
+    <!-- here use 'mailto:' for email and 'tel:' for phone number -->
+<p>email:<a href="mailto:aditi@example.com">aditi@example.com</a></p>
+<p>phone:<a href="tel:+9897378492">+9897378492</a></p>
+<form action="">
+<label for="name">NAME:</label>
+<input type="text" id="name" required placeholder="enter your name"><br>
+<label for="email">EMAIL:</label>
+<input type="email" id="email" requied placeholder="enter email address"><br>
+<!-- there is necessary to give <br> for textarea  -->
+<label for="message">MESSAGE</label><br>
+<!-- can give row and columns or able to extend it too -->
+<textarea name="message" id="message"  rows="5" cols="30"></textarea><br>
+<button type="submit">Send message</button>
+</form>
+<br>
+<!-- &copy is a tag -->
+<!-- we put p in div ,so that it is easy to apply flex box -->
+<div id="lower-footer">
+    <p>&copy; 2026 Aditi Tyage , All rights reserved</p>
+   <p><a href="">LinkedIn</a>|<a href="">GitHub</a></p>
+</div>
+    </footer>
+</body>
+</html>
+<!-- completed -->
